@@ -12,17 +12,17 @@
       <div
         class="border-solid border-2 border-black min-h-[calc(100vh/2)] max-w-screen-lg mx-auto bg-blue-200"
       >
-        <div class="grid grid-cols-3">
+        <div class="grid grid-cols-1 md:grid-cols-3">
           <section class="text-center my-4">
-            <button id="bold" class="font-bold">B</button>
-            <button id="italic" class="italic">I</button>
-            <button id="underline" class="underline">U</button>
+            <button id="bold" class="font-bold p-1">B</button>
+            <button id="italic" class="italic p-1">I</button>
+            <button id="underline" class="underline p-1">U</button>
           </section>
           <section class="text-center my-4">
-            <button id="left">Left</button>
-            <button id="center">Center</button>
-            <button id="right">Right</button>
-            <button id="justify">Justify</button>
+            <button id="left" class="p-1">Left</button>
+            <button id="center" class="p-1">Center</button>
+            <button id="right" class="p-1">Right</button>
+            <button id="justify" class="p-1">Justify</button>
           </section>
           <section class="text-center my-4 flex justify-center gap-2">
             <input
@@ -35,13 +35,12 @@
             <input class="block" id="color" type="color" />
           </section>
         </div>
-        <div id="text-area-div" class="mb-3 mx-8" data-te-input-wrapper-init>
+        <div id="text-area-div" class="mb-3 mx-8">
           <textarea
-            class="block min-h-[auto] w-full rounded border-0 outline-none p-2"
+            class="block w-full rounded border-0 outline-none p-2"
             rows="15"
             id="text-area"
-          >
-          </textarea>
+          ></textarea>
         </div>
       </div>
     </main>

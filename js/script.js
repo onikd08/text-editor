@@ -17,22 +17,22 @@ document.getElementById("underline").addEventListener("click", function () {
 
 // Left
 document.getElementById("left").addEventListener("click", function () {
-  textAreaField.classList.toggle("text-left");
+  textAreaField.style.textAlign = "left";
 });
 
 // Right
 document.getElementById("right").addEventListener("click", function () {
-  textAreaField.classList.toggle("text-right");
+  textAreaField.style.textAlign = "right";
 });
 
 //Center
 document.getElementById("center").addEventListener("click", function () {
-  textAreaField.classList.toggle("text-center");
+  textAreaField.style.textAlign = "center";
 });
 
 //Justify
 document.getElementById("justify").addEventListener("click", function () {
-  textAreaField.classList.toggle("text-justify");
+  textAreaField.style.textAlign = "justify";
 });
 
 //font-size
